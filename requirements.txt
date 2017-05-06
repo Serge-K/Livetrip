@@ -1,0 +1,16 @@
+gunicorn # <-- WSGI product server
+waitress # <-- WSGI develop server
+pyramid
+pyramid_debugtoolbar
+pyramid_jinja2 # <-- Template engine
+pyramid_redis_sessions
+pyramid_tm
+wtforms # <-- HTML Forms
+wtforms_components # <-- Aditional HTML Forms component
+sqlalchemy
+psycopg2 # <-- PostgreSQL driver
+zope.sqlalchemy
+alembic # <-- SQLAchemy migrate
+setproctitle # <-- Set Gunicorn process name
+pyramid_storage
+pyramid_celery
