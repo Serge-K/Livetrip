@@ -20,3 +20,4 @@ test/
 alembic/versions/
 *.sublime-workspace
 *.sublime-project
+celerybeat-schedule.db
